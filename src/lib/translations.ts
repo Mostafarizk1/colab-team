@@ -72,12 +72,18 @@ export const translations = {
     // Success & Error
     successTitle: 'تم الإرسال بنجاح!',
     successMessage: 'شكراً لك، هنتواصل معاك قريباً.',
+    backToHome: 'الرجوع للصفحة الرئيسية',
     errorMessage: 'حصل خطأ، حاول تاني.',
     
     // Validation
     required: 'هذا الحقل مطلوب',
     invalidEmail: 'البريد الإلكتروني غير صحيح',
     selectProfession: 'اختر تخصص واحد على الأقل',
+    
+    // Community
+    communityTitle: 'انضم للكوميونتي',
+    communityText: 'لو حابب تكون جزء من مجتمعنا وتتابع الفرص والتحديثات، انضم لجروب الواتساب.',
+    joinCommunity: 'انضم للجروب',
     
     // Footer
     footerText: '© 2026 CoLab Team. All rights reserved.',
@@ -156,12 +162,18 @@ this place is made for you.`,
     // Success & Error
     successTitle: 'Submitted Successfully!',
     successMessage: "Thank you, we'll contact you soon.",
+    backToHome: 'Back to Home',
     errorMessage: 'An error occurred, please try again.',
     
     // Validation
     required: 'This field is required',
     invalidEmail: 'Invalid email address',
     selectProfession: 'Select at least one profession',
+    
+    // Community
+    communityTitle: 'Join Our Community',
+    communityText: 'If you want to be part of our community and stay updated on opportunities, join our WhatsApp group.',
+    joinCommunity: 'Join Group',
     
     // Footer
     footerText: '© 2026 CoLab Team. All rights reserved.',
