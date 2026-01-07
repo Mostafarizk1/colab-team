@@ -51,10 +51,10 @@ export async function POST(request: NextRequest) {
       success: true,
       message: 'Form submitted successfully',
     });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Submit error:', error);
     return NextResponse.json(
-      { error: error.message || 'Failed to submit form' },
+      { error: error instanceof Error ? error.message : 'Failed to submit form' },
       { status: 500 }
     );
   }

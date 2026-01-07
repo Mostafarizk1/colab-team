@@ -60,7 +60,7 @@ export default function Home() {
         email: '',
         country: '',
       });
-    } catch (err) {
+    } catch {
       setError(t.errorMessage);
     } finally {
       setIsSubmitting(false);
